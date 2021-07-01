@@ -1,0 +1,163 @@
+﻿[
+  {
+    "captainAmerica": {
+      "identity": 65,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "title": "Captain America: The First Avenger",
+        "tagline": "When patriots become heroes",
+        "released": 2011
+      }
+    },
+    "person": {
+      "identity": 71,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Christopher Markus",
+        "born": 1970
+      }
+    }
+  },
+  {
+    "captainAmerica": {
+      "identity": 65,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "title": "Captain America: The First Avenger",
+        "tagline": "When patriots become heroes",
+        "released": 2011
+      }
+    },
+    "person": {
+      "identity": 72,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Stephen McFeely",
+        "born": 1969
+      }
+    }
+  },
+  {
+    "captainAmerica": {
+      "identity": 65,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "title": "Captain America: The First Avenger",
+        "tagline": "When patriots become heroes",
+        "released": 2011
+      }
+    },
+    "person": {
+      "identity": 69,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Tommy Lee Jones",
+        "born": 1946
+      }
+    }
+  },
+  {
+    "captainAmerica": {
+      "identity": 65,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "title": "Captain America: The First Avenger",
+        "tagline": "When patriots become heroes",
+        "released": 2011
+      }
+    },
+    "person": {
+      "identity": 68,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Sebastian Stan",
+        "born": 1982
+      }
+    }
+  },
+  {
+    "captainAmerica": {
+      "identity": 65,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "title": "Captain America: The First Avenger",
+        "tagline": "When patriots become heroes",
+        "released": 2011
+      }
+    },
+    "person": {
+      "identity": 67,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Hayley Atwell",
+        "born": 1982
+      }
+    }
+  },
+  {
+    "captainAmerica": {
+      "identity": 65,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "title": "Captain America: The First Avenger",
+        "tagline": "When patriots become heroes",
+        "released": 2011
+      }
+    },
+    "person": {
+      "identity": 70,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Joe Johnston",
+        "born": 1950
+      }
+    }
+  },
+  {
+    "captainAmerica": {
+      "identity": 65,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "title": "Captain America: The First Avenger",
+        "tagline": "When patriots become heroes",
+        "released": 2011
+      }
+    },
+    "person": {
+      "identity": 66,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Chris Evans",
+        "born": 1981
+      }
+    }
+  }
+]

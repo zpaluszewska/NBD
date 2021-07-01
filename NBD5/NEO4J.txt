@@ -1,0 +1,29 @@
+1. MATCH (movie:Movie) RETURN movie.title
+2. MATCH (hugo:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(hugoWeavingMovies) RETURN hugo,hugoWeavingMovies
+3. MATCH (hugo:Person {name:"Hugo Weaving"})-[:ACTED_IN]->(m)<-[:DIRECTED]-(director) RETURN director, m, hugo
+4. MATCH (hugo:Person {name:"Hugo Weaving"})-[:ACTED_IN]->(m)<-[:ACTED_IN]-(coActors) RETURN coActors, m
+5. MATCH (people:Person)-[relatedTo]-(:Movie {title: "The Matrix"}) RETURN people, Type(relatedTo), relatedTo
+6. MATCH (actor:Person)-[:ACTED_IN]->(movie) RETURN actor as Actor, count(movie) AS Movies
+7. MATCH(person:Person)-[:DIRECTED]->(movie)<-[:WROTE]-(person) RETURN person, movie
+8. MATCH(hugo:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(movie)<-[:ACTED_IN]-(keanu {name: "Keanu Reeves"}) RETURN movie, hugo, keanu
+9. CREATE(CaptainAmerica:Movie {title:"Captain America: The First Avenger", released:2011, tagline:"When patriots become heroes"}) 
+    CREATE (Chris:Person {name:"Chris Evans", born:1981}) 
+    CREATE (Hayley:Person {name: "Hayley Atwell", born:1982}) 
+    CREATE (Sebastian:Person {name:"Sebastian Stan", born:1982}) 
+    CREATE (Tommy:Person {name:"Tommy Lee Jones", born:1946}) 
+    CREATE (Joe:Person {name:"Joe Johnston", born:1950})
+    CREATE (Christopher:Person {name:"Christopher Markus", born:1970})
+    CREATE (Stephen:Person {name:"Stephen McFeely", born:1969})
+    CREATE
+        (Chris)-[:ACTED_IN {roles:['Captain America']}]->(CaptainAmerica), 
+        (Hayley)-[:ACTED_IN {roles:['Peggy Carter']}]->(CaptainAmerica), 
+        (Sebastian)-[:ACTED_IN {roles:['James Buchanan Barnes']}]->(CaptainAmerica), 
+        (Tommy)-[:ACTED_IN {roles:['Colonel Chester Philips']}]->(CaptainAmerica), 
+        (Hugo)-[:ACTED_IN {roles:['Johann Schmidt']}]->(CaptainAmerica),
+        (Joe)-[:DIRECTED]->(CaptainAmerica),
+        (Christopher)-[:WROTE]->(CaptainAmerica),
+        (Stephen)-[:WROTE]->(CaptainAmerica)
+
+   MATCH (captainAmerica:Movie {title:"Captain America: The First Avenger"}), 
+    (person:Person)-[:ACTED_IN|DIRECTED|WROTE]->(captainAmerica)
+        RETURN captainAmerica, person
