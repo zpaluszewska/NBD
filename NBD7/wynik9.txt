@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fl6T//mXgUFdKIMpkTGPlYH1bfAtviwA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.8 (that head fake, tho)
+Link: </buckets/s23905>; rel="up"
+Last-Modified: Fri, 02 Jul 2021 20:03:17 GMT
+ETag: "64HOY8ttTOY2DvMxYmCpVY"
+Date: Fri, 02 Jul 2021 20:07:33 GMT
+Content-Type: application/json
+Content-Length: 29
+
+{"tvSeries": "GilmoreGirls",}

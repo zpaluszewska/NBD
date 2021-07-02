@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fl6T/ziVgUFdMIMpkSmPlUH2TfAtviwA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.8 (that head fake, tho)
+Link: </buckets/s23905>; rel="up"
+Last-Modified: Fri, 02 Jul 2021 19:59:25 GMT
+ETag: "5xW2vioHQjCmmpoGbpPev8"
+Date: Fri, 02 Jul 2021 19:59:38 GMT
+Content-Type: application/json
+Content-Length: 108
+
+{"tvSeries": "La Casa de Papel", "numerOfSeasions": 4, "year_firstEpisode": 2017, "mainCharacter": "Berlin"}

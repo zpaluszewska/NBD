@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fl6T+m0KZDNlMCUy5bEytD8OvsWXBQA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.8 (that head fake, tho)
+Link: </buckets/s23905>; rel="up"
+Last-Modified: Fri, 02 Jul 2021 19:22:47 GMT
+ETag: "5yX25mda406Cg9TDQdIOzL"
+Date: Fri, 02 Jul 2021 19:30:58 GMT
+Content-Type: application/json
+Content-Length: 103
+
+{"tvSeries": "Friends","numerOfSeasions": 10,"year_firstEpisode": 1994,"mainCharacter": "Rachel Green"}

@@ -1,0 +1,31 @@
+1. 
+curl -XPOST -H "Content-Type: application/json" --data '{"tvSeries": "Friends","numerOfSeasions": 10,"year_firstEpisode": 1994,"mainCharacter": "Rachel Green"}' http://localhost:8098/buckets/s23905/keys/Friends
+
+curl -XPOST -H "Content-Type: application/json" --data '{"tvSeries": "Gossip Girl","numerOfSeasions": 6,"year_firstEpisode": 2007,"mainCharacter": "Serena van der Woodsen"}' http://localhost:8098/buckets/s23905/keys/GossipGirl
+
+curl -XPOST -H "Content-Type: application/json" --data '{"tvSeries": "La Casa de Papel","numerOfSeasions": 4,"year_firstEpisode": 2017,"mainCharacter": "Profesor"}' http://localhost:8098/buckets/s23905/keys/LaCasadePapel
+
+curl -XPOST -H "Content-Type: application/json" --data '{"tvSeries": "Greys Anatomy","numerOfSeasions": 17,"year_firstEpisode":2005,"mainCharacter": "Meredith Grey"}' http://localhost:8098/buckets/s23905/keys/GreysAnatomy
+
+curl -XPOST -H "Content-Type: application/json" --data '{"tvSeries": "New Amsterdam","numerOfSeasions": 2,"year_firstEpisode": 2018,"mainCharacter": "Max Goodwin"}' http://localhost:8098/buckets/s23905/keys/NewAmsterdam
+
+curl -i http://localhost:8098/buckets/s23905/keys?keys=true
+
+2. curl -i http://localhost:8098/buckets/s23905/keys/Friends
+
+
+3. curl -i -XPUT -H "Content-Type: application/json" -d '{"tvSeries": "Friends", "numerOfSeasions": 10, "year_firstEpisode": 1994, "mainCharacter":"Rachel Green", "year_lastEpisode": 2004}' http://localhost:8098/buckets/s23905/keys/Friends
+
+
+4. curl -i -XPUT -H "Content-Type: application/json" -d '{"tvSeries": "Gossip Girl", "numerOfSeasions": 6, "year_firstEpisode": 2007}' http://localhost:8098/buckets/s23905/keys/GossipGirl
+
+5. curl -i -XPUT -H "Content-Type: application/json" -d '{"tvSeries": "La Casa de Papel", "numerOfSeasions": 4, "year_firstEpisode": 2017, "mainCharacter": "Berlin"}' http://localhost:8098/buckets/s23905/keys/LaCasadePapel
+
+6. curl -i -XDELETE http://localhost:8098/buckets/s23905/keys/NewAmsterdam
+
+7. curl -i http://localhost:8098/buckets/s23905/keys/GilmoreGirls
+8. curl -i -XPOST -H "Content-Type: application/json" --data '{"tvSeries": "GilmoreGirls",}' http://localhost:8098/buckets/s23905/keys
+9. curl -i http://localhost:8098/buckets/s23905/keys/VGa7MuoS32r3Yta8vk9lCSeSJAY
+10. curl -i -XDELETE http://localhost:8098/buckets/s23905/keys/VGa7MuoS32r3Yta8vk9lCSeSJAY
+
+

@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fl4T1pvAwKAumMGUyJTHynDudfAtviwA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.8 (that head fake, tho)
+Link: </buckets/s23905>; rel="up"
+Last-Modified: Fri, 02 Jul 2021 19:58:06 GMT
+ETag: "489vRZE9CVBAhzw5W3b28W"
+Date: Fri, 02 Jul 2021 19:58:16 GMT
+Content-Type: application/json
+Content-Length: 76
+
+{"tvSeries": "Gossip Girl", "numerOfSeasions": 6, "year_firstEpisode": 2007}
